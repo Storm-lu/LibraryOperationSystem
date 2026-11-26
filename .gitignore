@@ -361,3 +361,25 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# ---------------------------------------------------------------------------
+# Project-specific additions for LibraryOperationSystem
+# ---------------------------------------------------------------------------
+
+# Intermediate directories created by this solution's build
+LibraryO.*/
+workspace/
+
+# Build output
+x64/
+x86/
+Release/
+Debug/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.tlog
+
+# Runtime scratch used while testing
+*.tmp

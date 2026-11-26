@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++</Extensions>
+    </Filter>
+    <Filter Include="Books">
+      <UniqueIdentifier>{D6FB5D5E-1658-42B7-B370-2C80C7E4AE45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="books\AliceInWonderland.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\Book.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\BraveNewWorld.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\CatcherInTheRye.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\CrimeAndPunishment.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\DonQuixote.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\Dracula.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\DreamOfTheRedChamber.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\Frankenstein.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\HarryPotterAndThePhilosophersStone.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\JaneEyre.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\JourneyToTheWest.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\LesMiserables.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\MobyDick.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\NineteenEightyFour.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\OneHundredYearsOfSolitude.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\PrideAndPrejudice.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\SherlockHolmes.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\TheAlchemist.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\TheCountOfMonteCristo.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\TheGreatGatsby.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\TheHobbit.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\TheLittlePrince.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\TheLordOfTheRings.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\TheMoonAndSixpence.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\TheOldManAndTheSea.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\TheStranger.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\TheTrial.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\ToKillAMockingbird.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\WarAndPeace.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="books\WutheringHeights.cpp">
+      <Filter>Books</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Record.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="books\AliceInWonderland.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\Book.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\BraveNewWorld.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\CatcherInTheRye.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\CrimeAndPunishment.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\DonQuixote.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\Dracula.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\DreamOfTheRedChamber.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\Frankenstein.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\HarryPotterAndThePhilosophersStone.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\JaneEyre.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\JourneyToTheWest.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\LesMiserables.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\MobyDick.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\NineteenEightyFour.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\OneHundredYearsOfSolitude.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\PrideAndPrejudice.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\SherlockHolmes.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\TheAlchemist.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\TheCountOfMonteCristo.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\TheGreatGatsby.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\TheHobbit.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\TheLittlePrince.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\TheLordOfTheRings.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\TheMoonAndSixpence.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\TheOldManAndTheSea.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\TheStranger.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\TheTrial.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\ToKillAMockingbird.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\WarAndPeace.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="books\WutheringHeights.h">
+      <Filter>Books</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

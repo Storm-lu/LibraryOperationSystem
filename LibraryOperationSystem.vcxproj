@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6e039bdf-5c89-4cac-acc5-5cbe39172a2f}</ProjectGuid>
+    <RootNamespace>LibraryOperationSystem</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="books\Book.cpp" />
+    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Reader.cpp" />
+    <ClCompile Include="Record.cpp" />
+    <ClCompile Include="Statistics.cpp" />
+    <ClCompile Include="books\AliceInWonderland.cpp" />
+    <ClCompile Include="books\BraveNewWorld.cpp" />
+    <ClCompile Include="books\CatcherInTheRye.cpp" />
+    <ClCompile Include="books\CrimeAndPunishment.cpp" />
+    <ClCompile Include="books\DonQuixote.cpp" />
+    <ClCompile Include="books\Dracula.cpp" />
+    <ClCompile Include="books\DreamOfTheRedChamber.cpp" />
+    <ClCompile Include="books\Frankenstein.cpp" />
+    <ClCompile Include="books\HarryPotterAndThePhilosophersStone.cpp" />
+    <ClCompile Include="books\JaneEyre.cpp" />
+    <ClCompile Include="books\JourneyToTheWest.cpp" />
+    <ClCompile Include="books\LesMiserables.cpp" />
+    <ClCompile Include="books\MobyDick.cpp" />
+    <ClCompile Include="books\NineteenEightyFour.cpp" />
+    <ClCompile Include="books\OneHundredYearsOfSolitude.cpp" />
+    <ClCompile Include="books\PrideAndPrejudice.cpp" />
+    <ClCompile Include="books\SherlockHolmes.cpp" />
+    <ClCompile Include="books\TheAlchemist.cpp" />
+    <ClCompile Include="books\TheCountOfMonteCristo.cpp" />
+    <ClCompile Include="books\TheGreatGatsby.cpp" />
+    <ClCompile Include="books\TheHobbit.cpp" />
+    <ClCompile Include="books\TheLittlePrince.cpp" />
+    <ClCompile Include="books\TheLordOfTheRings.cpp" />
+    <ClCompile Include="books\TheMoonAndSixpence.cpp" />
+    <ClCompile Include="books\TheOldManAndTheSea.cpp" />
+    <ClCompile Include="books\TheStranger.cpp" />
+    <ClCompile Include="books\TheTrial.cpp" />
+    <ClCompile Include="books\ToKillAMockingbird.cpp" />
+    <ClCompile Include="books\WarAndPeace.cpp" />
+    <ClCompile Include="books\WutheringHeights.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="books\Book.h" />
+    <ClInclude Include="Frame.h" />
+    <ClInclude Include="Reader.h" />
+    <ClInclude Include="Record.h" />
+    <ClInclude Include="books\AliceInWonderland.h" />
+    <ClInclude Include="books\BraveNewWorld.h" />
+    <ClInclude Include="books\CatcherInTheRye.h" />
+    <ClInclude Include="books\CrimeAndPunishment.h" />
+    <ClInclude Include="books\DonQuixote.h" />
+    <ClInclude Include="books\Dracula.h" />
+    <ClInclude Include="books\DreamOfTheRedChamber.h" />
+    <ClInclude Include="books\Frankenstein.h" />
+    <ClInclude Include="books\HarryPotterAndThePhilosophersStone.h" />
+    <ClInclude Include="books\JaneEyre.h" />
+    <ClInclude Include="books\JourneyToTheWest.h" />
+    <ClInclude Include="books\LesMiserables.h" />
+    <ClInclude Include="books\MobyDick.h" />
+    <ClInclude Include="books\NineteenEightyFour.h" />
+    <ClInclude Include="books\OneHundredYearsOfSolitude.h" />
+    <ClInclude Include="books\PrideAndPrejudice.h" />
+    <ClInclude Include="books\SherlockHolmes.h" />
+    <ClInclude Include="books\TheAlchemist.h" />
+    <ClInclude Include="books\TheCountOfMonteCristo.h" />
+    <ClInclude Include="books\TheGreatGatsby.h" />
+    <ClInclude Include="books\TheHobbit.h" />
+    <ClInclude Include="books\TheLittlePrince.h" />
+    <ClInclude Include="books\TheLordOfTheRings.h" />
+    <ClInclude Include="books\TheMoonAndSixpence.h" />
+    <ClInclude Include="books\TheOldManAndTheSea.h" />
+    <ClInclude Include="books\TheStranger.h" />
+    <ClInclude Include="books\TheTrial.h" />
+    <ClInclude Include="books\ToKillAMockingbird.h" />
+    <ClInclude Include="books\WarAndPeace.h" />
+    <ClInclude Include="books\WutheringHeights.h" />
+    <ClInclude Include="Statistics.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
